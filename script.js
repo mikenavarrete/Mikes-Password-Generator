@@ -21,5 +21,21 @@ function generatePassword() {
     return "";
   } 
 
-  
+  var includeLowercase = confirm("Include lowercase characters?");
+  var includeUppercase = confirm("Include uppercase characters?");
+  var includeNumeric = confirm("Include numeric characters?");
+  var includeSpecialChars = confirm("Include special characters?");
+
+
+  if (!includeLowercase && !includeUppercase && !includeNumeric && !includeSpecialChars){
+    alert("please select at least one character type.");
+    return "";
+  }
+
+
+  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numericChars = "0123456789";
+  var specialChars = "!@#$%^&*()_+{}[]|;:,.<>?";
+
 }
