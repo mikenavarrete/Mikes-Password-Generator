@@ -9,4 +9,4 @@ This is a password generator that creates passwords between 8 and 128 characters
 - Special characters?
 - Password is generated
 ## Screenshot 
-![Screenshot of generator](./Assets/03-javascript-homework-demo.png)
+![Screenshot of generator](./03-javascript-homework-demo.png)
